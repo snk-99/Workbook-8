@@ -1,0 +1,9 @@
+PUT  http://localhost:8888/todos/1
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "title": "walk the fish",
+    "completed": true,
+    "id": 1
+}
